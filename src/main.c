@@ -1,7 +1,13 @@
-#include "application.h"
+#include <stdlib.h>
+#include <stdbool.h>
+#include "menu.h"
 
 int main(int argc, char **argv)
 {
-    run_application();
-    return 0;
+    bool b_continue = true;
+    while (b_continue)
+    {
+        show_menu(&b_continue);
+    }
+    return EXIT_SUCCESS;
 }

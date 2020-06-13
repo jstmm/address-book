@@ -3,7 +3,7 @@ CFLAGS=-Wall -g
 
 all: address_book
 
-address_book: main.o application.o storage.o menu.o
+address_book: main.o menu.o storage.o
 	$(CC) $(CFLAGS) $^ -o address_book
 
 %.o: src/%.c
