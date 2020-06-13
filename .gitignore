@@ -1,2 +1,3 @@
 address_book
 *.o
+resources/storage.txt
