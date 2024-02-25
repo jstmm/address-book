@@ -1,20 +1,19 @@
 # Address Book
 
-### Requirements
+This is an address book with persisted storage written in C.
 
-- GCC (or update Makefile accordingly)
+## Installation
 
-### Installation
+1. Install the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
+2. Build the variant needed (Debug or Release)
+3. Run the program from the CMake extension or by executing the following command from the project folder:
 
-1. Clone the projet locally:
+```bash
+$ build/address-book
+```
 
-        $ git clone https://github.com/julienstamm/address-book.git
+## Usage
 
-2. Go to project directory and build project:
+TODO
 
-        $ cd address-book
-        $ make
-
-4. Run the application:
-
-        $ ./address_book
+## Roadmap
